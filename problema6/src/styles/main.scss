@@ -1,0 +1,29 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+body, html, #root{
+  height:100%;
+  width:100%;
+}
+.App{
+  background:url('../assets/fondoPokemon.jpg') no-repeat  center center fixed;
+  background-size:cover;
+  color:rgb(240, 227, 227);
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+@media screen and (max-width: 600px) {
+  .App{
+    background:url('../assets/fondoPokemon.jpg') no-repeat  center center fixed;
+    background-size:cover;
+    color:rgb(240, 227, 227);
+    height: 150%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+  }
+}
+  

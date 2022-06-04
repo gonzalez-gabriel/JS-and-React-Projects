@@ -1,0 +1,15 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+body, html, #root{
+  width:100%;
+}
+.App{
+  background:grey;
+  color:rgb(255, 250, 250);
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+}

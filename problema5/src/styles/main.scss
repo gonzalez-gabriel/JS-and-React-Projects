@@ -1,0 +1,26 @@
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+.App{
+  background-color: grey;
+  color:rgb(240, 227, 227);
+  height: 100%;
+  width: 100%;
+}
+body, html, #root{
+  height:100%;
+  width:100%;
+}
+
+@media screen and (max-width: 1366px){
+  .App{
+    height:110%;
+  }
+}
+@media screen and (max-width: 600px){
+  .App{
+    height:150%;
+  }
+}

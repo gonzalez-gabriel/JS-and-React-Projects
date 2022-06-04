@@ -1,0 +1,51 @@
+.correct-password {
+  color: rgb(5, 169, 5);
+}
+.incorrect-password {
+  color: rgb(241, 18, 18);
+}
+.container{
+
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  width:100%;
+  // height:100%;
+  // padding-bottom: 7rem;
+}
+.conditionsContainer{
+  display:flex;
+  gap:1rem;  
+}
+.image{
+  &-check{
+    max-height: 3rem;
+    filter: invert(85%) sepia(35%) saturate(5374%) hue-rotate(56deg) brightness(106%) contrast(96%);
+  }
+  &-cross{
+    max-height: 3rem;
+    filter: invert(26%) sepia(93%) saturate(5662%) hue-rotate(3deg) brightness(100%) contrast(97%);
+  }
+}
+.conditions{
+  display:flex;
+  flex-direction:column;
+  width:90vw;
+  padding:2rem;
+  background-color: rgb(51, 48, 48);
+  border-radius:8px;
+  gap:0.5rem;
+}
+.title{
+  font-size:1.5rem;
+  text-shadow: 2px 2px 2px rgb(12, 10, 10);
+  color:rgb(240, 229, 229);
+}
+.correct-password, .incorrect-password {
+  font-size:1.1rem;
+}
+.span{
+  font-weight:bold;
+  font-size:1.2rem;
+}
