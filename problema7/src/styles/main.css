@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Chicle&display=swap');
+*{
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+}
+
+:root{
+  font-family: 'Chicle', cursive;
+  letter-spacing: .15rem
+}
+body,html,#root{
+  height:100%;
+  width:100%;
+  background: rgb(240, 178, 64);
+
+}
+
+button{
+  border:none;
+  background:none;
+  cursor:pointer;
+  outline:none;
+  font-family: 'Chicle', cursive;
+  letter-spacing: .15rem
+}
